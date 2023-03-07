@@ -1,0 +1,9 @@
+version: 1.0
+configuration:
+  ide_config:
+    default_open_files:
+      - src/App.Api/Controllers/CountController.cs
+    project_menu:
+      run: dotnet build && cd TodoApi && dotnet run
+      install: dotnet build
+      test: dotnet test
